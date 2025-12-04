@@ -9,15 +9,24 @@ function addBurger() {
     burgers.push(newBurger);
 }
 
+function addMapleBaconBurger(){
 if (true) {
   
     let anotherNewBurger = 'Maple Bacon Burger';
     burgers.push(anotherNewBurger);
+  }
 }
 
 
 function changeFeaturedDrink() {
     featuredDrink = 'The JavaShake';
 }
+
+addBurger();                
+addMapleBaconBurger();      
+changeFeaturedDrink();  
+
+console.log("Final Burgers:", burgers);
+console.log("Featured Drink:", featuredDrink);
 
 
