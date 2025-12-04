@@ -20,3 +20,8 @@ function changeFeaturedDrink() {
     featuredDrink = 'The JavaShake';
 }
 
+addBurger();               
+changeFeaturedDrink();
+
+console.log("Final Burgers:", burgers);
+console.log("Featured Drink:", featuredDrink);
